@@ -1,0 +1,21 @@
+package Methodsingnature;
+
+public class Test {
+
+	public boolean m1(double d) {
+		return false;
+	}
+	public void m2(int i) {
+		
+	}
+   public static void main(String[] args) {
+	  
+	   Test t=new Test();
+	   t.m1(10.5d);
+	   t.m2(10);
+	  System.out.println(t.m1(10.5d));
+	   
+}
+
+
+}

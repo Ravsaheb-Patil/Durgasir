@@ -1,0 +1,19 @@
+package collection;
+
+import java.util.Vector;
+
+public class VectorDemo {
+	
+	public static void main(String[] args) {
+		Vector v=new Vector(20);
+		v.add(10);
+		v.add(10);
+		v.add(null);
+		v.add(null);
+		v.addElement("Ravsaheb");
+		v.addElement("Ravsaheb");
+		
+		System.out.println(v);
+	}
+
+}

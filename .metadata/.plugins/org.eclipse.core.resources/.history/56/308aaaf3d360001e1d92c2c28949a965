@@ -1,0 +1,14 @@
+package TightlyEnca;
+
+public class C extends B {
+	
+	private int c=30;
+	public static void main(String[] args) {
+		
+	C c=new C();
+	c.toString();
+		
+	}
+	
+
+}

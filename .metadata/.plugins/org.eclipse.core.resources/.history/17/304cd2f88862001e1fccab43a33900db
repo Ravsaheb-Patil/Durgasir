@@ -1,0 +1,16 @@
+package Collectiondemo;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Stack;
+import java.util.Vector;
+
+public class demo {
+	final int a=10;
+	      int b=20;
+		public static void main(String[] args) {
+			demo d=new demo();
+			
+			System.out.println(d);
+		}
+}

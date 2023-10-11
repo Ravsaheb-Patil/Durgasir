@@ -1,0 +1,62 @@
+package Logical;
+
+public class Employee {
+
+	
+	private int eid;
+	
+	private String ename;
+	
+    private int eage;
+    
+    private double esallary;
+
+	public int getEid() {
+		return eid;
+	}
+
+	public void setEid(int eid) {
+		this.eid = eid;
+	}
+
+	public String getEname() {
+		return ename;
+	}
+
+	public void setEname(String ename) {
+		this.ename = ename;
+	}
+
+	public int getEage() {
+		return eage;
+	}
+
+	public void setEage(int eage) {
+		this.eage = eage;
+	}
+
+	public double getEsallary() {
+		return esallary;
+	}
+
+	public void setEsallary(double esallary) {
+		this.esallary = esallary;
+	}
+
+	public Employee(int eid, String ename, int eage, double esallary) {
+		super();
+		this.eid = eid;
+		this.ename = ename;
+		this.eage = eage;
+		this.esallary = esallary;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [eid=" + eid + ", ename=" + ename + ", eage=" + eage + ", esallary=" + esallary + "]";
+	}
+    
+    
+    
+
+}

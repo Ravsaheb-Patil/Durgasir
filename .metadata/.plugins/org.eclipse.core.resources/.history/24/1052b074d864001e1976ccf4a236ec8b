@@ -1,0 +1,26 @@
+package Logical;
+
+import java.util.Comparator;
+import java.util.List;
+import java.util.stream.Stream;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		Employee emp1=new Employee(1,"Ravsaheb",25,20000.0);
+		
+		Employee emp2=new Employee(2,"Suresh",30,30000.0);
+		
+		Employee emp3=new Employee(3,"Sujit",23,45000.0);
+		
+		Employee emp4=new Employee(4,"nikhil",27,65000.0);
+
+         List<Employee> emp=List.of(emp1,emp2,emp3,emp4);
+         
+         Employee employee=(Employee) emp.stream()
+        		 .sorted(Comparator.comparingDouble(Employee::getEsallary).reversed());
+         System.out.println(employee);
+		
+	}
+}

@@ -1,0 +1,12 @@
+package demo;
+
+import java.io.FileNotFoundException;
+
+public class parent {
+
+	public void m1() {
+		
+		
+	}
+	
+}

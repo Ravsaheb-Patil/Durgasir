@@ -1,0 +1,13 @@
+package TightlyEnca;
+
+import Abstraction.Application;
+
+public class A implements Epplication {
+	
+	
+		
+	
+	
+	private int x=10;
+
+}

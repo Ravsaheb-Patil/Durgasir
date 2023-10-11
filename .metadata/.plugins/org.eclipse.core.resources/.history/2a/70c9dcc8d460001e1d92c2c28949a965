@@ -1,0 +1,7 @@
+package TightlyEnca;
+
+public class C extends  {
+	
+	private int c=30;
+
+}

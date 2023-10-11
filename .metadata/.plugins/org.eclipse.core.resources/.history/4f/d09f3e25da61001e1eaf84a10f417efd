@@ -1,0 +1,17 @@
+package Collectiondemo;
+
+import java.util.Stack;
+import java.util.Vector;
+
+public class demo {
+	
+		public static void main(String[] args) {
+		 Stack s=new Stack();
+		 s.push("sahil");
+		 s.push("Ravsaheb");
+		 s.push("Nikhil");
+		 System.out.println(s);
+		
+		
+		}
+}

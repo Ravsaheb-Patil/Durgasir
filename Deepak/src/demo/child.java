@@ -1,0 +1,13 @@
+package demo;
+
+
+public class child extends parent {
+	
+	public void m1()  {
+		System.out.println("m1 child method ");
+	}
+    public static void main(String[] args) {
+		child c=new child();
+		c.m1();
+	}
+}

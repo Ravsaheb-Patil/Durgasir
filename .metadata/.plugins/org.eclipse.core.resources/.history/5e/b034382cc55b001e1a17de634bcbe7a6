@@ -1,0 +1,23 @@
+package demo;
+
+public class overloding {
+	
+	public void m1(int i) {
+		System.out.println("int arg method");
+	}
+	public void m1(byte b) {
+		System.out.println("byte arg method");
+	}
+
+	public static void main(String[] args) {
+		
+		overloding o=new overloding();
+		o.m1(10);
+		
+		
+		
+		
+		
+		
+	}
+}

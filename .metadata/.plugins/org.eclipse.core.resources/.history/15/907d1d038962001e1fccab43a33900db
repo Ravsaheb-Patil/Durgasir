@@ -1,0 +1,13 @@
+package Collectiondemo;
+
+
+
+public class demo {
+	final int a=10;
+	      int b=20;
+		public static void main(String[] args) {
+			demo d=new demo();
+			
+			System.out.println(d);
+		}
+}
